@@ -1,46 +1,46 @@
 const functions = {
 
     // Print head of the array
-    head: function (l1) {
-        if (l1.length == 0) {
+    head: function (arr) {
+        if (arr.length == 0) {
             return null;
         }
         else {
-            return l1[0];
+            return arr[0];
         }
     },
 
     // Print tail of the array
-    tail: function (l1) {
-        if (l1.length == 0) {
+    tail: function (arr) {
+        if (arr.length == 0) {
             return [];
         }
         else {
-            l1.shift();
-            return l1;
+            arr.shift();
+            return arr;
         }
     },
 
     // Calculate minimum value from the list
-    minimum: function (l1) {
-        if (l1.length == 0) {
+    minimum: function (arr) {
+        if (arr.length == 0) {
             return null;
         }
         else {
-            l1.sort();
-            return l1[0];
+            arr.sort();
+            return arr[0];
         }
     },
 
     // Calculate maximum value from the list
-    maximum: function (l1) {
-        if (l1.length == 0) {
+    maximum: function (arr) {
+        if (arr.length == 0) {
             return null;
         }
         else {
-            l1.sort();
-            l1.reverse();
-            return l1[0];
+            arr.sort();
+            arr.reverse();
+            return arr[0];
         }
     },
 }

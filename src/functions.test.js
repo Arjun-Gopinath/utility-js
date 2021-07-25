@@ -1,5 +1,6 @@
 const functions = require('./functions')
 
+// Head function
 describe('Head', () => {
     test('List is empty', () => {
         expect(functions.head([])).toBeNull();
@@ -9,6 +10,7 @@ describe('Head', () => {
     });
 }),
 
+    // Tail function
     describe('Tail', () => {
         test('List is empty', () => {
             expect(functions.tail([])).toEqual([]);
@@ -18,6 +20,7 @@ describe('Head', () => {
         });
     }),
 
+    // Miinimum function
     describe('Minimum', () => {
         test('List is empty', () => {
             expect(functions.minimum([])).toBeNull();
@@ -27,6 +30,7 @@ describe('Head', () => {
         });
     }),
 
+    // Maximum function
     describe('Maximum', () => {
         test('List is empty', () => {
             expect(functions.maximum([])).toBeNull();
