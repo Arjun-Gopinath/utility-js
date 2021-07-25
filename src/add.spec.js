@@ -7,7 +7,8 @@ describe('Add', () => {
     });
 
     it('Sum of 1 and 0 is 1', () => {
-        expect(add(1, 0)).toEqual(0);
+        // Value in toEqual() changed from 0 to 1
+        expect(add(1, 0)).toEqual(1);
     });
 
 })
