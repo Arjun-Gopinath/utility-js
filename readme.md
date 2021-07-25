@@ -58,3 +58,12 @@ _________________________________
     - e.g. `max([1,2,3,4])` should be `4`
 - min
     - same as above... return `1`
+
+_________________________________
+
+## Solutions
+
+_________________________________
+
+- head, tail, max, and min functions are coded in `functions.js` and `functions.test.js`
+- All other functions are coded in respective `js` files
